@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); */
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+}
+body {
+  font-family: "Mali", cursive;
+  background: var(--mainGreen);
+  color: var(--mainDark);
+}
+h3 {
+    display: block;
+    padding-left: 50px;
+    position: relative;
+}
+   
+input[type="checkbox"] {
+   position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+/* dynamic styles */
+/* .del  {
+  display: none;
+} */
+/* .del.visible{
+  display: block;
+  color: red;
+} */
+/* button */
+.btn-add  {
+  background: var(--mainDark);
+  border: 0.1rem solid var(--mainDark);
+  color: var(--mainWhite);
+}
+.btn-add:hover  {
+  color: var(--mainWhite);
+  background: blue;
+  transition: 0.5s  all ease-in-out;
+  border: 0.1rem solid blue;
+}
+.btn-clear  {
+  background: var(--mainDark)!important;
+  border: 0.1rem solid var(--mainDark);
+}
+.btn-clear:hover  {
+  background: red !important;
+  border: 0.1rem solid red;
+  transition: 0.5s  all ease-in-out;
+}
+ul  {
+  list-style: none;
+}
